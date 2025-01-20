@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    tituloUnidad: 'Ética institucional, laboral y profesional ',
   },
   menuPrincipal: {
     menu: [
@@ -15,70 +15,16 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Ética profesional: un compromiso humanístico.',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo:
+          'Manual y código ético del profesional en seguridad y salud en el trabajo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Título tema',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -87,22 +33,11 @@ export default {
       },
     ],
     subMenu: [
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      // {
-      //   nombreRuta: 'complementario',
-      //   icono: 'far fa-folder-open',
-      //   titulo: 'Material complementario',
-      // },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -118,26 +53,78 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
+        'Acevedo Acosta, J. (2011). Ética y humanismo en la educación: ( ed.). Aguascalientes, Ags. México: Universidad Autónoma de Aguascalientes. ',
       link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/40729?page=20.',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Arredondo Trapero, F. G. (2011). La integridad del líder de empresa: ( ed.). México, D.F, Mexico: Ediciones y Gráficos Eón. ',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/40986?page=99.',
+    },
+    {
+      referencia:
+        'Instituto asturiano de prevención de riesgos laborales (2002). Código internacional de ética para los profesionales de la salud ocupacional. Marzo 2022 (España) ',
+      link:
+        'https://higieneyseguridadlaboralcvs.wordpress.com/wp-content/uploads/2012/08/codigo_etico.pdf',
+    },
+    {
+      referencia:
+        'Vallejo Dacosta, R. (2016). Marco jurídico de la seguridad y salud en el trabajo: (3 ed.). Prensas de la Universidad de Zaragoza. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/44818',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Confidencialidad',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'protección de información sensible y personal de los trabajadores y la organización.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Código ético',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'conjunto de principios y normas que guían la conducta profesional.',
+    },
+    {
+      termino: 'Decálogo ético',
+      significado:
+        'lista de principios fundamentales para orientar la práctica profesional ética.',
+    },
+    {
+      termino: 'Ética profesional',
+      significado:
+        'conjunto de valores y principios que guían la conducta en el ejercicio laboral.',
+    },
+    {
+      termino: 'Imparcialidad',
+      significado:
+        'actuar de manera justa, sin favoritismos ni conflictos de interés.',
+    },
+    {
+      termino: 'Integridad',
+      significado:
+        'mantener honestidad y consistencia en principios y acciones profesionales.',
+    },
+    {
+      termino: 'Manual profesional',
+      significado:
+        'documento que establece funciones, responsabilidades y protocolos en una profesión.',
+    },
+    {
+      termino: 'Prevención de riesgos',
+      significado:
+        'identificación y control de peligros para evitar accidentes laborales.',
+    },
+    {
+      termino: 'Responsabilidad',
+      significado:
+        'obligación de asumir las consecuencias de las decisiones y acciones realizadas.',
+    },
+    {
+      termino: 'Salud ocupacional',
+      significado:
+        'disciplina enfocada en proteger y promover el bienestar de los trabajadores.',
     },
   ],
 }
