@@ -68,7 +68,7 @@
             p(data-aos="fade-left").mb-4 Para conocer sobre esta temática, lo invitamos a escuchar el siguiente podcast.
             
             TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-              texto="Fundamentos de la innovación estratégica"
+              texto="Código ético del profesional en SST"
               tiempo
               :audio="require('../../assets/curso/podcast/podcast1.mp3')"
             )
@@ -233,7 +233,8 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema:
+          'Manual y código ético del profesional en seguridad y salud en el trabajo',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -242,28 +243,18 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              'La confidencialidad es un principio ético que deben seguir los profesionales en salud ocupacional.',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'Verdadero',
                 esCorrecta: true,
               },
               {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Son opcionales',
+                id: 'b',
+                texto: 'Falso',
                 esCorrecta: false,
               },
             ],
@@ -273,28 +264,18 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              'Un entorno laboral seguro fomenta la productividad y el compromiso de los empleados.',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto: 'Verdadero',
                 esCorrecta: true,
               },
               {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                id: 'b',
+                texto: 'Falso',
                 esCorrecta: false,
               },
             ],
@@ -304,28 +285,18 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              'Es importante que los profesionales en salud ocupacional se mantengan actualizados sobre el entorno laboral.',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'Verdadero',
                 esCorrecta: true,
               },
               {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                id: 'b',
+                texto: 'Falso',
                 esCorrecta: false,
               },
             ],
@@ -334,28 +305,19 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              'Es importante que los profesionales en salud ocupacional se mantengan actualizados sobre el entorno laboral',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto: 'Verdadero',
                 esCorrecta: true,
               },
               {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                id: 'b',
+                texto: 'Falso',
                 esCorrecta: false,
               },
             ],
@@ -365,29 +327,19 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              'Los profesionales en SST no deben estar enterados de la estrategia ni se deben alinear a ella.',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'Verdadero',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto: 'Falso',
                 esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
-                esCorrecta: false,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
