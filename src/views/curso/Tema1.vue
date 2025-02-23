@@ -168,7 +168,7 @@
                 | Mecanismos de retroalimentación para involucrar a los trabajadores en decisiones relacionadas con la SST.
               li.d-flex 
                 i.fas.fa-check-circle.bg-color-6
-                | Formación en valores como solidaridad y apoyo mutuo
+                | Formación en valores como solidaridad y apoyo mutuo.
     
           .div(titulo="Impacto social")
             p Políticas éticas en SST que contribuyan al desarrollo de comunidades y entornos sociales más responsables y sostenibles.

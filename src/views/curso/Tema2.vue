@@ -76,7 +76,7 @@
     .bg-full-width-1.bg-fondo-3.mb-3
       .p-4.p-md-5
         h2(data-aos="fade-left") Efectos del riesgo laboral
-        p.mb-5 Los riesgos laborales pueden generar diferentes tipos de patologías que afectan la salud de los trabajadores, dependiendo de su naturaleza y relación con las actividades desempeñadas
+        p.mb-5 Los riesgos laborales pueden generar diferentes tipos de patologías que afectan la salud de los trabajadores, dependiendo de su naturaleza y relación con las actividades desempeñadas.
         
         .row.justify-content-center.align-items-stretch
           .col-lg-6.mb-4(data-aos="zoom-in-up")
